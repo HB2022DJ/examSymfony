@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+
+<title>Nouveau model</title>
+
+{% block body %}
+	<h1>ajout ton nouveau model</h1>
+
+	{{ include('model/_form.html.twig') }}
+
+	<a href="{{ path('app_model_index') }}">retour</a>
+{% endblock %}
